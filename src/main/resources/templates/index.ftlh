@@ -1,10 +1,10 @@
 [#ftl]
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Datum</title>
-    [#include '_common/styles.ftlh']
+    <title>Datum a čas</title>
+     [#include '_common/styles.ftlh']
 </head>
 <body>
 <div class="container">
@@ -13,6 +13,5 @@
         <div>Vyberte si, zda chcete zobrazit datum nebo čas.</div>
     </div>
 </div>
-<h1 class="display-1 fw-bold text-center">Dnes je: ${datum}</h1>
 </body>
 </html>
